@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <h1>Login in</h1>
+        <h2>Please input your Email and Password</h2>
+
+        <!-- if the input's type is different than submit and it's value is set,
+            it'll allways be the default value when the browser rerendered this input.
+        -->
+        <form action="" method="POST">
+            <input name="email" type="email" placeholder="Email" value="" />
+            <input name="password" type="password" placeholder="Password" value="" />
+            <input type="submit" value="Login in" />
+            <input type="submit" value="Clear" />
+        </form>
+    </div>
+    <div>
+        <h1>Choose Color!</h1>
+        <h2>Click on Button and type some text!</h2>
+        <form>
+            <input type="color" name="color"/>
+            <input type="text" placeholder="Type some Text" value="" />
+        </form>
+    </div>
+    <div>
+        <h1>Working with Labels</h1>
+        <form action="https://www.facebook.com" method="GET">
+            <label for="first">First Name</label>
+            <input id="first" type="text" name="first" placeholder="First Name" value="" required/>
+            <label for="last">Last Name</label>
+            <input id="last" type="text" name="last" placeholder="Last Name" value="" />
+            <input type="submit" />
+        </form>
+    </div>
+</body>
+</html>
