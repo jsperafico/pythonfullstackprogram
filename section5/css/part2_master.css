@@ -1,0 +1,17 @@
+body {
+    background-image: url("../../section3/img/django-logo.png");
+}
+
+div {
+    background-color: red;
+    border-color: blue;
+    border-width: 2px;
+    border-style: double;
+}
+p {
+    color: yellow;
+}
+span {
+    background-color: red;
+    color: white;
+}
