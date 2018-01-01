@@ -1,0 +1,25 @@
+/* Classes selector */
+.firstDiv {
+    color: blue;
+}
+.secondDiv {
+    color: red;
+}
+/* Id Selector */
+#singledout {
+    color: green;
+    text-decoration: line-through;
+}
+/* Adjacent Selectors */
+h3 + ul {
+    border: 5px dotted purple;
+}
+/* Decendents Selectors */
+li a{
+    color: red;
+}
+/* Decendents Selectors with some filter */
+li a[href="www.google.com.br"] {
+    color: blue;
+    border: 5px solid orange;
+}
