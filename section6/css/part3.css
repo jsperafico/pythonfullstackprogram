@@ -1,0 +1,14 @@
+h1:first-child {
+    border: 4px solid blue;
+    width: 25%;
+    text-align: center;
+    /* top right, bottom left */
+    /* auto => center the element. */
+    margin: auto;
+}
+h1:last-child {
+    border: 4px solid red;
+    width: 50%;
+    padding: 200px;
+    text-align: center
+}

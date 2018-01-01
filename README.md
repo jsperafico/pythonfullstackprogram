@@ -14,4 +14,6 @@ https://www.udemy.com/python-and-django-full-stack-web-developer-bootcamp/
 -   Section 5: Level One CSS.
     -   How to select HTML tags and change it's shape.
 -   Section 6: Level Two CSS.
-    -   
+    -   How to work with Fonts. Using native and remote fonts through cdn. 
+-   Section 7: Bootstrap
+    -   You should learn CSS4!!!

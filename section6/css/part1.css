@@ -1,0 +1,16 @@
+h1 {
+    font-family:Courier New, Courier, monospace;
+    text-align: center;  
+}
+p {
+    font-size: 10px;
+    font-style: italic;
+}
+/* em => equals to the size of the font of the parent in questioning
+  1em = 16px
+  2em = 32px
+  if the body is default size */
+#two {
+    font-size: 1.5em;
+    font-weight: bold;
+}
