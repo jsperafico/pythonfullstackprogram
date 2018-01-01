@@ -27,11 +27,9 @@ table {
     background-color: crimson;
     color:crimson;
 }
-table {
-    
-}
 td {
     padding: 50px;
     width: 100px;
     height: 200px;
+    border: 6px solid white;
 }

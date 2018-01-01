@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+article {
+    background-color: darkblue;
+    margin: auto;
+    width: 80%;
+}
+p {
+    font-family: 'Playfair Display', serif;
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+input[type="submit"] {
+    background-color: yellow;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    height: 40px
+}
